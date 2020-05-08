@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Swachh Bin Home"></item>
+        <item
+            android:id="@+id/nav_admin"
+            android:title="Admin Login"></item>
+        <item
+            android:id="@+id/nav_complaint"
+            android:title="Raise a Complaint"></item>
+        <item
+            android:id="@+id/nav_support"
+            android:title="Support"></item>
+    </group>
+
+</menu>

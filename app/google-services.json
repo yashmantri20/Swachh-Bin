@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "110487865327",
+    "firebase_url": "https://swachh-bin-12.firebaseio.com",
+    "project_id": "swachh-bin-12",
+    "storage_bucket": "swachh-bin-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110487865327:android:323b2a03c7d0815e22181a",
+        "android_client_info": {
+          "package_name": "com.example.swachhbin12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110487865327-fck919dlb2tmu3p2phjgri0bs448k8t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swachhbin12",
+            "certificate_hash": "118986b0d1e0d726b07dfa24fc23b76879da743d"
+          }
+        },
+        {
+          "client_id": "110487865327-gq60j7pjnjrk7tounoc1g1njtc1f4npp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgt2V1-7NyBcx7e7rIbWpGQqaM1Hygji4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110487865327-gq60j7pjnjrk7tounoc1g1njtc1f4npp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

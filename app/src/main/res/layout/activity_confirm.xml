@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirm"
+    android:background="@color/colorAccent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"
+        android:fontFamily="robotica"
+        android:text="Type of Waste  :  "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Name : "
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Zip Code : "
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="37dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+    <TextView
+        android:id="@+id/waste_type"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Address : "
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:id="@+id/user_address"
+
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:ems="10"
+        android:gravity="start|top"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:text="Phone : "
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:id="@+id/user_phone"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="425dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/user_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Confirm"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+
+    <TextView
+        android:id="@+id/user_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="robotica"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+</RelativeLayout>

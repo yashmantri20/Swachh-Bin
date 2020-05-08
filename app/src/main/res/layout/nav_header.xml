@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/aa"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="83dp"
+        android:src="@drawable/delete"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swachh Bin"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="robotica"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beta Version"
+        android:textColor="#FFFFFF"
+        android:fontFamily="robotica"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>

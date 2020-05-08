@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/home_carousel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This application aims to manage vegetable and Animal waste : "
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Press 'Buy Waste' Button "
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Add address and type of waste "
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Get Notified when request"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gets approved"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:textStyle="bold"
+        ></TextView>
+
+
+    <Button
+        android:id="@+id/buy_button"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Waste"
+        android:textColor="#FFFFFF"
+        android:fontFamily="robotica"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"></Button>
+
+
+
+</RelativeLayout>
